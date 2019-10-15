@@ -5,6 +5,9 @@
   "routes": [
     { "src": "/api/contact",
       "methods": ["POST"],
-      "dest": "api/contact/index.ts" }
+      "dest": "/api/contact/post.ts" },
+    { "src": "/api/contact/post.ts",
+      "status": 404,
+      "dest": "/404" }
   ]
 }
