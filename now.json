@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "issue-now-route-methods",
+  "public": true,
+  "routes": [
+    { "src": "/api/contact",
+      "methods": ["POST"],
+      "dest": "api/contact/index.ts" }
+  ]
+}
